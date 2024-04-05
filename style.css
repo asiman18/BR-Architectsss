@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Chakra Petch", sans-serif;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    margin-right: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+.navbar ul li a:hover{
+    color: rgb(40, 36, 36);
+    font-size: 150%;
+}
+
+.header__body{
+    width: 1500px;
+    height: 800px;
+    background: url(https://www.w3schools.com/w3images/architect.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__text{
+    width: 297px;
+    height: 74px;
+    background-color: black
+    /* margin-top: 25%;
+    left: 40%; */
+    position absolute;
+}
+.h1__text{
+    color: white;
+    font-size: 36px;
+    margin: 10px
+}
+.BR__text{
+    background-color: black;
+    padding: 8px 15px;
+    opacity: 0.70;
+}
+.Architects__text{
+    font-size: 36px;
+    font-weight: 400
+}
+
+.section__body{
+    width: 100%;
+    height: 650px;
+}
+.container{
+    padding-top: 30px;
+    padding: 15px;
+    
+}
+.Projects__text{
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Summer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Summer img , .Bummer img{
+    width: 360px;
+    height: 240px;
+}
+.Summer h1{
+    background-color: black;
+    width: 140px;
+    height: 35px;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: 35px;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+
+.Bummer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Bummer h1{
+    background-color: black;
+    width: 140px;
+    height: 35px;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: 35px;
+}
+.text__random{
+    width: 100%;
+    height: 610px;
+}
+.container__text{
+    padding: 15px;
+    padding-top: 30px;
+
+}
+.h3__text{
+    position: relative;
+    right: 8px;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+    
+}
+.p__text{
+    font-size: 20px;
+    font-weight: 100;
+}
+.Hummer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    gap: 15px;
+}
+.Hummer__container, .Hummer2__container{
+    display: flex;
+    gap: 20px;
+}
+.Hummer__container img{
+    width: 350px;
+    height: 250px;
+    /* object-fit: cover; */
+}
+.Hummer2__container div{
+    height: 250px;
+    width: 350px;
+}
+.Hummer2__h1{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.Hummer2__p{
+    font-size: 15px;
+    line-height: 3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: gray;
+}
+.Hummer2__btn{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+    font-size: 17px;
+    background-color: #f1f1f1;
+    border: transparent;
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    right: 8px;
+}
+.Contact__container{
+    padding: 15px;
+    padding-top: 30px;  
+}
+.Contact__h3{
+    position: relative;
+    right: 8px;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contact__p{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contact__form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15px;
+
+}
+.Contact__form input{
+    padding: 12px;
+    border: 1px solid gray;
+}
+.Contact__btn{
+    border: transparent;
+    width: 153px;
+    height: 38px;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+.Contact__btn:hover{
+    background-color: rgb(180, 176, 176);
+    color: black;
+}
+.Section__photo{
+    width: 100%;
+    height: 850px;
+    background: url(./img1/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.Footer__p{
+    color: white;
+
+
+}
+.Footer__text{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    margin-top: 30px;
+}
